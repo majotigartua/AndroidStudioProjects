@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">Scores</string>
+    <string name="local_label" translatable="false">Local</string>
+    <string name="local_vs_visitor_label">Local - Visitor</string>
+    <string name="local_vs_visitor_score_format" translatable="false">%d - %2d</string>
+    <string name="local_won_label">Local won!</string>
+    <string name="minus_one" translatable="false">-1</string>
+    <string name="plus_one" translatable="false">+1</string>
+    <string name="plus_two" translatable="false">+2</string>
+    <string name="tie_label">It was a tie!</string>
+    <string name="visitor_label">Visitor</string>
+    <string name="visitor_won_label">Visitor won!</string>
+    <string name="zero" translatable="false">0</string>
+</resources>

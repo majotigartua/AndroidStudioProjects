@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_fields_label">No se puede dejar ningún campo vacío.</string>
+    <string name="greetings_button">Saludar</string>
+    <string name="name_instruction_label">Ingresa tu nombre:</string>
+    <string name="name_label">Nombre…</string>
+    <string name="welcome_label">¡Hola, %s! ¡Bienvenido/a a Desarrollo de Aplicaciones!</string>
+</resources>

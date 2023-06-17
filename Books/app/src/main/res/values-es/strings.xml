@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="author_label">Autores…</string>
+    <string name="comment_instruction_label">Comentario:</string>
+    <string name="comment_label">Comentario…</string>
+    <string name="rating_label">Valoración:</string>
+    <string name="save_button">Guardar</string>
+    <string name="title_label">Título…</string>
+</resources>

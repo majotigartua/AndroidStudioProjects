@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="local_vs_visitor_label">Local - Visitante</string>
+    <string name="local_won_label">¡Ganó el local!</string>
+    <string name="tie_label">¡Fue un empate!</string>
+    <string name="visitor_label">Visitante</string>
+    <string name="visitor_won_label">¡Ganó el visitante!</string>
+</resources>

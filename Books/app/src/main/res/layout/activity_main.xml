@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/book_image_view"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@android:drawable/ic_menu_camera" />
+
+        <EditText
+            android:id="@+id/title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/book_image_view"
+            android:layout_toEndOf="@id/book_image_view"
+            android:hint="@string/title_label" />
+
+        <EditText
+            android:id="@+id/author_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/book_image_view"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@id/book_image_view"
+            android:hint="@string/author_label" />
+
+        <View
+            android:id="@+id/divider_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/book_image_view"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/comment_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider_view"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/comment_instruction_label"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/comment_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_text_view"
+            android:layout_marginTop="16dp"
+            android:hint="@string/comment_label" />
+
+        <TextView
+            android:id="@+id/rating_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment_edit_text"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/rating_label"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="TextSizeCheck" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating_text_view"
+            android:layout_centerHorizontal="true"
+            android:progressTint="@color/yellow" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/save_button" />
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name" translatable="false">BodyMassIndexCalculator</string>
+    <string name="between_18_5_and_24_9" translatable="false">18.5 - 24.9</string>
+    <string name="between_25_0_and_29_9" translatable="false">25.0 - 29.9</string>
+    <string name="between_30_0_and_34_9" translatable="false">30.0 - 34.9</string>
+    <string name="between_35_0_and_39_9" translatable="false">35.0 - 39.9</string>
+    <string name="body_mass_index_label">"Your body mass index is %f."</string>
+    <string name="body_mass_index_title" translatable="false">BMI</string>
+    <string name="calculate_body_mass_index_button">Calculate body mass index</string>
+    <string name="empty_fields_label">No field can be left empty.</string>
+    <string name="height_in_centimeters_label">Height in centimeters…</string>
+    <string name="height_label">Enter your height:</string>
+    <string name="invalid_information_label">The entered information is invalid.</string>
+    <string name="less_than_18_5_label" translatable="false"><![CDATA[< 18.5]]></string>
+    <string name="more_than_40" translatable="false"><![CDATA[> 40]]></string>
+    <string name="normal_weight_label">Normal weight</string>
+    <string name="overweight_label">Overweight</string>
+    <string name="type_one_obesity_label">Type one obesity</string>
+    <string name="type_three_obesity_label">Type three obesity</string>
+    <string name="type_two_obesity_label">Type two obesity</string>
+    <string name="underweight_label">Underweight</string>
+    <string name="weight_label">Enter your weight:</string>
+    <string name="weight_in_kilograms_label">Weight in kilograms…</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="body_mass_index_label">"Tu índice de masa corporal es de %f."</string>
+    <string name="calculate_body_mass_index_button">Calcular índice de masa corporal</string>
+    <string name="empty_fields_label">No se puede dejar ningún campo vacío.</string>
+    <string name="height_in_centimeters_label">Estatura en centrímetros…</string>
+    <string name="height_label">Estatura:</string>
+    <string name="invalid_information_label">La información ingresada es inválida.</string>
+    <string name="normal_weight_label">Peso normal</string>
+    <string name="overweight_label">Sobrepeso</string>
+    <string name="type_one_obesity_label">Obesidad tipo uno</string>
+    <string name="type_three_obesity_label">Obesidad tipo tres</string>
+    <string name="type_two_obesity_label">Obesidad tipo dos</string>
+    <string name="underweight_label">Bajo peso</string>
+    <string name="weight_in_kilograms_label">Peso en kilogramos…</string>
+    <string name="weight_label">Peso:</string>
+</resources>

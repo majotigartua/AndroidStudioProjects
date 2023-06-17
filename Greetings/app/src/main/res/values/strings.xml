@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Greetings</string>
+    <string name="name_instruction_label">Enter your name:</string>
+    <string name="name_label">Name...</string>
+    <string name="greetings_button">Greetings</string>
+    <string name="welcome_label">Hi, %s! Welcome to Application Development!</string>
+    <string name="empty_fields_label">No field can be left empty.</string>
+</resources>
